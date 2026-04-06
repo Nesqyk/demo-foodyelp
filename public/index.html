@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>City Bites</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="search-section">
+        <div class="search-wrap">
+          <form id="search-form" class="search-panel">
+            <label class="field">
+              <span class="sr-only">City</span>
+              <input
+                id="city-input"
+                name="city"
+                type="text"
+                placeholder="Search restaurants by city"
+                autocomplete="address-level2"
+                required
+              />
+            </label>
+            <button type="submit">Search</button>
+          </form>
+
+          <p id="status" class="status" aria-live="polite"></p>
+        </div>
+      </section>
+
+      <section class="results-section">
+        <div class="results-wrap">
+          <div id="results" class="results-grid"></div>
+          <p id="pagination-meta" class="pagination-meta"></p>
+          <nav id="pagination" class="pagination" aria-label="Results pages"></nav>
+        </div>
+      </section>
+    </main>
+
+    <template id="restaurant-template">
+      <article class="card">
+        <div class="card-media">
+          <img class="restaurant-image" alt="Restaurant preview" />
+        </div>
+        <div class="card-top">
+          <div>
+            <h3 class="restaurant-name"></h3>
+            <p class="categories"></p>
+          </div>
+          <span class="rating"></span>
+        </div>
+        <p class="address"></p>
+        <div class="detail-chips compact-chips">
+          <span class="review-count chip"></span>
+          <span class="price chip"></span>
+        </div>
+        <dl class="coordinates">
+          <div>
+            <dt>Lat</dt>
+            <dd class="latitude"></dd>
+          </div>
+          <div>
+            <dt>Lng</dt>
+            <dd class="longitude"></dd>
+          </div>
+        </dl>
+      </article>
+    </template>
+
+    <script src="/app.js"></script>
+  </body>
+</html>

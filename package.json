@@ -1,0 +1,9 @@
+{
+  "name": "demo-foodyelp",
+  "version": "1.0.0",
+  "description": "Simple Yelp restaurant search web app",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  }
+}
