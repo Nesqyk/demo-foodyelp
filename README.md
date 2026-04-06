@@ -4,19 +4,10 @@ Simple JavaScript web app that searches real Yelp restaurant data for a given ci
 
 ## Demo video
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0;">
-  <iframe
-    id="js_video_iframe"
-    src="https://jumpshare.com/embed/Bhljged2OsePdrCcmDE0"
-    frameborder="0"
-    webkitallowfullscreen
-    mozallowfullscreen
-    allowfullscreen
-    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
-  ></iframe>
-</div>
+[![Watch Demo](https://img.shields.io/badge/Watch-Demo-1f6feb?style=for-the-badge)](https://nesqyk.github.io/demo-foodyelp/)
 
-- Direct demo link: [Jumpshare demo](https://jumpshare.com/embed/Bhljged2OsePdrCcmDE0)
+- Playable demo page: [https://nesqyk.github.io/demo-foodyelp/](https://nesqyk.github.io/demo-foodyelp/)
+- Direct player link: [Jumpshare demo](https://jumpshare.com/embed/Bhljged2OsePdrCcmDE0)
 
 ## Features
 
