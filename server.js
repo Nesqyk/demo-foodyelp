@@ -17,6 +17,7 @@ const MIME_TYPES = {
   '.png': 'image/png',
   '.jpg': 'image/jpeg',
   '.jpeg': 'image/jpeg',
+  '.mp4': 'video/mp4',
   '.ico': 'image/x-icon'
 };
 

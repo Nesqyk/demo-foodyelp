@@ -50,12 +50,22 @@ Then open:
 http://localhost:3000
 ```
 
+## Demo video
+
+<video controls preload="metadata" width="100%">
+  <source src="./public/demo_yelp.mp4" type="video/mp4" />
+  Your browser does not support embedded video. Download the local demo file below.
+</video>
+
+- Local demo file: `public/demo_yelp.mp4`
+
 ## Project structure
 
 ```text
 .
 |- public/
 |  |- app.js
+|  |- demo_yelp.mp4
 |  |- styles.css
 |  |- index.html
 |  `- location_illustration.png
