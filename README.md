@@ -53,11 +53,12 @@ http://localhost:3000
 ## Demo video
 
 <video controls preload="metadata" width="100%">
-  <source src="./public/demo_yelp.mp4" type="video/mp4" />
-  Your browser does not support embedded video. Download the local demo file below.
+  <source src="https://github.com/Nesqyk/demo-foodyelp/releases/download/demo-video-1/demo_yelp.mp4" type="video/mp4" />
+  Your browser does not support embedded video. Open the hosted demo link below.
 </video>
 
-- Local demo file: `public/demo_yelp.mp4`
+- Hosted demo video: `https://github.com/Nesqyk/demo-foodyelp/releases/download/demo-video-1/demo_yelp.mp4`
+- Release page: `https://github.com/Nesqyk/demo-foodyelp/releases/tag/demo-video-1`
 
 ## Project structure
 
