@@ -2,6 +2,22 @@
 
 Simple JavaScript web app that searches real Yelp restaurant data for a given city and displays a clean, paginated list of results.
 
+## Demo video
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0;">
+  <iframe
+    id="js_video_iframe"
+    src="https://jumpshare.com/embed/Bhljged2OsePdrCcmDE0"
+    frameborder="0"
+    webkitallowfullscreen
+    mozallowfullscreen
+    allowfullscreen
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+  ></iframe>
+</div>
+
+- Direct demo link: [Jumpshare demo](https://jumpshare.com/embed/Bhljged2OsePdrCcmDE0)
+
 ## Features
 
 - Real Yelp restaurant search by city
@@ -49,16 +65,6 @@ Then open:
 ```text
 http://localhost:3000
 ```
-
-## Demo video
-
-<video controls preload="metadata" width="100%">
-  <source src="https://github.com/Nesqyk/demo-foodyelp/releases/download/demo-video-1/demo_yelp.mp4" type="video/mp4" />
-  Your browser does not support embedded video. Open the hosted demo link below.
-</video>
-
-- Hosted demo video: `https://github.com/Nesqyk/demo-foodyelp/releases/download/demo-video-1/demo_yelp.mp4`
-- Release page: `https://github.com/Nesqyk/demo-foodyelp/releases/tag/demo-video-1`
 
 ## Project structure
 
